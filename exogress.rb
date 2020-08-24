@@ -1,6 +1,6 @@
 class Exogress < Formula
-  desc "Exogress"
-  homepage "https://github.com/exogress/exogress"
+  desc "Exogress CLI client"
+  homepage "https://www.exogress.com"
   version "0.0.1-alpha.8"
   url "https://github.com/exogress/exogress/releases/download/v0.0.1-alpha.8/exogress-v0.0.1-alpha.8-x86_64-apple-darwin.tar.gz"
   sha256 "8d6ff148949b95b1651fe15132b456ba7eb5ca8f36f3ecd6c53a7d8135846dc3"
