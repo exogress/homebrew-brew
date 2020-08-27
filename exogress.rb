@@ -1,13 +1,13 @@
 class Exogress < Formula
   desc "Exogress command-line client"
   homepage "https://www.exogress.com/"
-  version "0.0.1-alpha.45"
-  url "https://github.com/exogress/cli/releases/download/v0.0.1-alpha.45/exogress-macos-x86_64.tar.gz"
-  sha256 "dec1c80e70dd5398efaa57bef35958cbad1541d42617badebfdc98bca739ef99"
+  version "0.0.1-alpha.46"
+  url "https://github.com/exogress/cli/releases/download/v0.0.1-alpha.46/exogress-macos-x86_64.tar.gz"
+  sha256 "6c6dfaf2464ef1e90be526c9cd97b1b068a3147f19bded0cc2413fe16072ebec"
 
   if OS.linux?
-    url "https://github.com/exogress/cli/releases/download/v0.0.1-alpha.45/exogress-linux-x86_64-musl-static.tar.gz"
-    sha256 "021af097d8546c9ae94ea2323b9242c12f9e619db04752683473d27b851b865f"
+    url "https://github.com/exogress/cli/releases/download/v0.0.1-alpha.46/exogress-linux-x86_64-musl-static.tar.gz"
+    sha256 "8e320f92160f59204ad2759877747a81a16a3ca04ab86e2e891fa5f40db2fd68"
   end
 
   def install
