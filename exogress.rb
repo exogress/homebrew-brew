@@ -3,11 +3,11 @@ class Exogress < Formula
   homepage "https://www.exogress.com/"
   version "0.0.1-alpha.49"
   url "https://github.com/exogress/cli/releases/download/v0.0.1-alpha.49/exogress-macos-x86_64.tar.gz"
-  sha256 "bb5b5883b61059e36ae7edd80867c6bbdfdce068c3e8c94725b4465a9650707e"
+  sha256 "0ba669cb92b98ab3b41d5efe32d8d0bf2bad67a8437f83b299bcbf888c27d3d6"
 
   if OS.linux?
     url "https://github.com/exogress/cli/releases/download/v0.0.1-alpha.49/exogress-linux-x86_64-musl-static.tar.gz"
-    sha256 "a02b9ad301fce73a02ac6a30c48f53f654bd243d145581202a27beb0128626b0"
+    sha256 "5651e95e0715569abb17a34919fb00d70882ebff69f9e87a23b091a85b9f330a"
   end
 
   def install
