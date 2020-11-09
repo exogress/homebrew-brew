@@ -1,7 +1,7 @@
 Exogress Homebrew Tap
 =====================
 
-This is a [https://brew.sh/][brew] tap for formulae of exogress software
+This is a [brew](https://brew.sh/) tap for formulae of exogress software
 
 
 Setup
