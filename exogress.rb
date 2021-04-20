@@ -8,8 +8,8 @@ class Exogress < Formula
   bottle do
     root_url "https://github.com/exogress/cli/releases/download/v0.2.1"
 
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "c165970868ace1e7d783e6f4be1654ae0edd83d3a15dc1e84a509a3414f720f2"
-    sha256 cellar: :any_skip_relocation, big_sur: "abc5c4041fd720e2f97f80494ebbddb0b90908a05003892af92ec6ebec780af5"
+    sha256 arm64_big_sur: "c165970868ace1e7d783e6f4be1654ae0edd83d3a15dc1e84a509a3414f720f2"
+    sha256 big_sur: "abc5c4041fd720e2f97f80494ebbddb0b90908a05003892af92ec6ebec780af5"
   end
 
   depends_on "rust" => :build
