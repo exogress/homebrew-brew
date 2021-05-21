@@ -1,9 +1,9 @@
 class Exogress < Formula
   desc "Exogress command-line client"
   homepage "https://www.exogress.com/"
-  version "0.4.2"
-  url "https://github.com/exogress/cli/archive/refs/tags/v0.4.2.tar.gz"
-  sha256 "02d0ebee1da34431e99ca8518acc72a5a0a9bddb0fb7490100baf928610f5db1"
+  version "0.4.3"
+  url "https://github.com/exogress/cli/archive/refs/tags/v0.4.3.tar.gz"
+  sha256 "22ba2e8f2326cf25d26a90555985babd81849b9ba11963390cf99a63ebbeb19a"
   license "Apache-2.0"
 
   depends_on "rust" => :build
